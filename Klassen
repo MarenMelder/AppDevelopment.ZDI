@@ -1,0 +1,28 @@
+void main() {
+
+//Klassen
+
+  Essen chips = Essen (":)",10);
+  chips.zeigeEigenschaften();
+
+  Essen steak = Essen ("ich bin vegetarier :/",-20);
+  steak.zeigeEigenschaften();
+
+
+}
+
+  class Essen {
+    String geschmack;
+    int menge;
+
+   Essen(String geschmack, int menge){
+    this.geschmack=geschmack;
+    this.menge=menge;
+  }
+
+  void zeigeEigenschaften(){
+    print(this.geschmack);
+    print(this.menge);
+
+  }
+  }
