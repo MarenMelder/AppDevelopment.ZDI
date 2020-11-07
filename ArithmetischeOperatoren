@@ -1,0 +1,14 @@
+void main() {
+  
+int zahl = 10;
+  
+  zahl= zahl + 13;
+  print("$zahl");
+  
+  zahl= zahl - 3;
+  print("$zahl");
+  
+  zahl--;
+  print("$zahl");
+    
+}
