@@ -1,0 +1,22 @@
+void main() {
+  
+//If-Else-Struktur
+  
+int datengrenze = 20;
+  
+  if(datengrenze > 10){ 
+  print("Die Zahl ist größer als 10");
+    
+  }else{
+   print("Die Zahl ist kleiner als 10");
+  } 
+  
+//Ternärer Operator
+ 
+int zahl = 30;
+
+  String richtigeZahl = zahl > 10 ? "Die Zahl ist größer" : "Die Zahl ist kleiner";
+  
+  print(richtigeZahl);
+  
+}
