@@ -1,0 +1,13 @@
+void main() {
+  
+  String meinName = "Maren";
+  print("Mein Name ist $meinName");//Interpolation 
+  
+  double kommazahl = 3.4;
+  String zahlenwert = kommazahl.toString();//Casting
+  print(zahlenwert);
+  
+  int meinNameLength = meinName.length;
+  print("Mein Name ist $meinNameLength Buchstaben lang.");
+    
+}
