@@ -1,0 +1,14 @@
+void main() {
+  
+//List 
+  
+ List <String> schulfaecher = ["Mathe","Deutsch","Bio","Englisch"];
+  
+  for(int i=0; i<schulfaecher.length; i++){
+    print(schulfaecher[i]);
+  }
+ 
+  for(String fach in schulfaecher){
+    print(fach);
+  }
+}
